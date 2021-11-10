@@ -1,0 +1,141 @@
+.btn1{
+  position: relative;
+  display: inline-flex;
+  width: 180px;
+  height: 55px;
+  margin: 15px;
+  perspective: 1000px;
+}
+
+.btn2{
+    position: relative;
+    display: inline-flex;
+    width: 250px;
+    height: 55px;
+    margin: 15px;
+    perspective: 1000px;
+  }
+.btn1 a,
+.btn2 a{
+    font-size: 19px;
+    letter-spacing: 1px;
+    transform-style: preserve-3d;
+    transform: translateZ(-25px);
+    transition: transform .25s;
+    font-family: 'Montserrat', sans-serif;
+    
+  }
+  .ap_s a:before,
+  .ap_s a:after{
+    position: absolute;
+    content: "AP Suivant →";
+    height: 55px;
+    width: 180px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 5px solid #8f8f8f;
+    box-sizing: border-box;
+    border-radius: 5px;
+  }
+  .ap_p a:before,
+  .ap_p a:after{
+    position: absolute;
+    content: "← AP Précédent";
+    height: 55px;
+    width: 180px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 5px solid #8f8f8f;
+    box-sizing: border-box;
+    border-radius: 5px;
+  }
+
+  .stage_1 a:before,
+  .stage_1 a:after{
+    position: absolute;
+    content: "Stage Première année";
+    height: 55px;
+    width: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 5px solid #8f8f8f;
+    box-sizing: border-box;
+    border-radius: 5px;
+  }
+
+  .stage_2 a:before,
+  .stage_2 a:after{
+    position: absolute;
+    content: "Stage Deuxième année";
+    height: 55px;
+    width: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 5px solid #8f8f8f;
+    box-sizing: border-box;
+    border-radius: 5px;
+  }
+
+  .stage_1_an a:before,
+  .stage_1_an a:after{
+    position: absolute;
+    content: "First Year Internship";
+    height: 55px;
+    width: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 5px solid #8f8f8f;
+    box-sizing: border-box;
+    border-radius: 5px;
+  }
+
+  .stage_2_an a:before,
+  .stage_2_an a:after{
+    position: absolute;
+    content: "Second Year Internship";
+    height: 55px;
+    width: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 5px solid #8f8f8f;
+    box-sizing: border-box;
+    border-radius: 5px;
+  }
+
+  .btn1 a:before,
+  .btn2 a:before{
+    color: #fff;
+    background: #8f8f8f;
+    transform: rotateY(0deg) translateZ(25px);
+  }
+  .btn1 a:after,
+  .btn2 a:after{
+    color: #8f8f8f;
+    transform: rotateX(90deg) translateZ(25px);
+  }
+  .btn1 a:hover,
+  .btn2 a:hover{
+    transform: translateZ(-25px) rotateX(-90deg);
+  }
+
+
+  .gauche{
+    float: left;
+}
+
+.droite{
+    float: right;
+}
+
+.box{
+    display: inline;
+}
+
+
+

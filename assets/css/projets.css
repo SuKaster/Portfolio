@@ -1,0 +1,76 @@
+.ap_0,
+.ap_1,
+.ap_2,
+.ap_3,
+.ap_4,
+.stage{
+  background-color: white;
+  color: black;
+}
+
+thead th, tbody th, tbody td, tfoot td {
+  background: white;
+  border: 3px solid #ccc;
+  border-radius: 5px;
+}
+
+table {
+  width: 915px;
+  height: 171px;
+  border-collapse: collapse;
+  padding: 0px;
+  margin: 0px;
+}
+  
+  
+thead th:nth-child(1) {
+  width: 100%;
+  background-color: #8f8f8f;
+  color: white;
+}
+
+
+
+
+.zoom{
+  -webkit-transition: all 1s ease; 
+  -moz-transition: all 1s ease; 
+  -ms-transition: all 1s ease; 
+  -o-transition: all 1s ease; 
+  transition: all 1s ease;
+}
+
+.zoom:hover{
+    -webkit-transform:scale(1.05); 
+  -moz-transform:scale(1.05); 
+  -ms-transform:scale(1.05); 
+  -o-transform:scale(1.05); 
+  transform:scale(1.05);
+}
+
+th, td {
+    padding: 10px;
+}
+
+.truc{
+  text-align: center;
+  background-color: #e9e9e9;
+}
+
+.truc > a {
+  color: #8f8f8f;
+}
+
+.truc:hover,
+.truc:hover a{
+  background-color: #8f8f8f;
+  color: white;
+}
+
+.p_r_case{
+  background-color: #8f8f8f;
+  color: white;
+}
+.Liens{
+  width: 267.01px;
+}

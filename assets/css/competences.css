@@ -1,0 +1,25 @@
+.dl-comp a {
+  text-decoration: none;
+  color: #000;
+  font-size: 18px;
+  font-weight: 400;
+  transition: all 0.5s ease-in-out;
+  position: relative;
+  text-transform: uppercase;
+}
+.dl-comp a::before {
+  content: attr(data-item);
+  transition: 0.5s;
+  color: #8f8f8f;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 0;
+  overflow: hidden;
+}
+.dl-comp a:hover::before {
+  width: 100%;
+  transition: all 0.5s ease-in-out;
+}
